@@ -1,0 +1,110 @@
+.header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: #343a40;
+        color: #ffffff;
+        padding: 10px 0;
+        transition: top 0.3s;
+}
+
+.custom-navbar {
+        background-color: #343a40;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+        color: #ffffff;
+        transition: color 0.3s;
+}
+
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-item:hover {
+        color: lightskyblue;
+}
+
+.headerContainer {
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+}
+
+.headerLogo {
+        color: inherit;
+        text-decoration: none;
+        font-size: 2.3rem;
+        margin: 0;
+        display: flex;
+        align-items: center;
+}
+
+.headerLogo span {
+        margin-right: 5px;
+}
+
+.nav-item {
+        margin-right: 20px;
+}
+
+.basket-icon {
+        font-size: 1.5rem;
+}
+
+.search-form {
+        margin-right: 20px;
+}
+
+.search-form .form-control-sm {
+        width: auto;
+        display: inline-block;
+}
+
+.search-form .btn-sm {
+        font-size: 0.875rem;
+        padding: 5px 10px;
+        border-radius: 0.2rem;
+        transition: background-color 0.3s;
+}
+
+.search-form .btn-sm:hover {
+        background-color: lightskyblue;
+        color: #ffffff;
+}
+
+.login-btn,
+.register-btn {
+        margin-right: 10px;
+        color: #ffffff;
+        transition: background-color 0.3s;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+        color: #343a40;
+        background-color: lightskyblue;
+        border-radius: 5px;
+        padding: 5px 10px;
+}
+
+@media (max-width: 992px) {
+        .headerLogo {
+                font-size: 1.8rem;
+        }
+
+        .search-form {
+                margin-right: 10px;
+        }
+}
+
+@media (max-width: 576px) {
+        .headerLogo {
+                font-size: 1.5rem;
+        }
+
+        .nav-item {
+                margin-right: 10px;
+        }
+}

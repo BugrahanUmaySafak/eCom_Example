@@ -1,0 +1,46 @@
+.filter-sidebar {
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 35px 10px;
+        height: calc(95vh - 56px);
+        width: 250px;
+        position: fixed;
+        top: 56px;
+        z-index: 1000;
+        border: 1px solid lightskyblue;
+        border-radius: 5px;
+}
+
+.filter-sidebar h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+}
+
+.filter-section {
+        margin-bottom: 20px;
+}
+
+.filter-section h4 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+}
+
+.filter-section ul {
+        list-style-type: none;
+        padding: 0;
+}
+
+.filter-section ul li {
+        cursor: pointer;
+        padding: 8px 0;
+}
+
+.filter-section ul li:hover {
+        color: lightskyblue;
+}
+
+.filter-section ul li.selected {
+        color: lightskyblue;
+        font-weight: bold;
+}
